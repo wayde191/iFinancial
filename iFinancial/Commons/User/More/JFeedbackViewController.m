@@ -10,8 +10,6 @@
 #import "iHArithmeticKit.h"
 #import "iHFeedbackModel.h"
 
-#import "MobClick.h"
-
 #define TEXT_VIEW_DEFAULT_COLOR     RGBACOLOR(187, 187, 187, 1)
 
 @interface JFeedbackViewController (){
@@ -46,7 +44,6 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    [MobClick beginLogPageView:@"FeedbackViewPage"];
     
     UIBarButtonItem *rightButton = [[UIBarButtonItem alloc] initWithTitle:@"确定" style:UIBarButtonItemStyleDone target:self action:@selector(sureFeedBtnClicked:)];
     //self.navigationController.navigationItem.title = @"反馈信息";
@@ -56,7 +53,6 @@
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-    [MobClick endLogPageView:@"FeedbackViewPage"];
     
    // self.navigationController.
 }
@@ -134,7 +130,6 @@
     }
     [_dm doCallFeedbackService:_theTextView.text];
     
-    [MobClick event:@"feedback" label:@"feedback"];
 }
 
 - (IBAction)onBgClicked:(id)sender {

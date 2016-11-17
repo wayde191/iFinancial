@@ -8,7 +8,6 @@
 
 #import "iHIncomeHistoryTableViewController.h"
 #import "iHIncomeHisModel.h"
-#import "MobClick.h"
 #import "LPLoginViewController.h"
 #import "iHAppDelegate.h"
 
@@ -38,12 +37,10 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    [MobClick beginLogPageView:@"HistoryIncomeViewPage"];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-    [MobClick endLogPageView:@"HistoryIncomeViewPage"];
 }
 
 - (void)viewDidLoad

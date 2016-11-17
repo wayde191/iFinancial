@@ -7,7 +7,6 @@
 //
 
 #import "iHAnalyseDetailViewController.h"
-#import "MobClick.h"
 
 @interface iHAnalyseDetailViewController (){
     NSString *_htmlStr;
@@ -28,12 +27,10 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    [MobClick beginLogPageView:@"AnalyseDetailView"];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-    [MobClick endLogPageView:@"AnalyseDetailView"];
 }
 
 - (void)viewDidLoad

@@ -10,8 +10,6 @@
 #import "iHValidationKit.h"
 #import "LPLoginModel.h"
 
-#import "MobClick.h"
-
 @interface LPLoginViewController ()
 - (void)initFromUserDefault;
 - (void)gobackToLastPage;
@@ -65,13 +63,11 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    [MobClick beginLogPageView:@"LoginViewPage"];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
     [USER_DEFAULT synchronize];
-    [MobClick endLogPageView:@"LoginViewPage"];
 }
 
 - (void)loginSuccess {
@@ -142,7 +138,6 @@
     [self showStaticMessage:@"正在登录..."];
     [_dm doCallLoginService:paras];
     
-    [MobClick event:@"user_do_login" label:@"user_do_login"];
 }
 
 - (IBAction)onRememberPasswordBtnClicked:(id)sender {

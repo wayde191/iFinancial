@@ -10,7 +10,6 @@
 #import "iHAddAccountModel.h"
 #import "iHValidationKit.h"
 #import "LPLoginViewController.h"
-#import "MobClick.h"
 
 @interface iHAddAccountViewController ()
 
@@ -29,12 +28,10 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    [MobClick beginLogPageView:@"AddAccountView"];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-    [MobClick endLogPageView:@"AddAccountView"];
 }
 
 - (void)viewDidLoad

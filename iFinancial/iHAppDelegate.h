@@ -7,12 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "GADBannerView.h"
-#import "GADBannerViewDelegate.h"
 
 BOOL g_need_refresh;
 
-@interface iHAppDelegate : UIResponder <UIApplicationDelegate , GADBannerViewDelegate>
+@interface iHAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

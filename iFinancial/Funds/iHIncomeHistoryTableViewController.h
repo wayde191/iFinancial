@@ -7,11 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "GADBannerView.h"
-#import "GADBannerViewDelegate.h"
 
 @class iHIncomeHisModel;
-@interface iHIncomeHistoryTableViewController : UITableViewController <GADBannerViewDelegate> {
+@interface iHIncomeHistoryTableViewController : UITableViewController {
     iHIncomeHisModel *_dataModel;
 }
 

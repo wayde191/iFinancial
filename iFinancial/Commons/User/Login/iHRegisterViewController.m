@@ -10,8 +10,6 @@
 #import "LPLoginModel.h"
 #import "iHValidationKit.h"
 
-#import "MobClick.h"
-
 @interface iHRegisterViewController (){
     LPLoginModel *_dm;
 }
@@ -37,12 +35,10 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    [MobClick beginLogPageView:@"RegisterViewPage"];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-    [MobClick endLogPageView:@"RegisterViewPage"];
 }
 
 - (void)viewDidLoad
@@ -132,9 +128,7 @@
                            password, @"password",
                            cfmPwd, @"confirmPwd",
                            nil];
-    [_dm doCallRegisterService:paras];
-    
-    [MobClick event:@"user_do_reg" label:@"user_do_reg"];
+    [_dm doCallRegisterService:paras];    
 }
 
 - (void)registerSuccess

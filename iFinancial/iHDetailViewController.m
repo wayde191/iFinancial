@@ -16,7 +16,6 @@
 #import "iHFundsViewController.h"
 #import "iHSureGoldViewController.h"
 #import "iHAnnualRateViewController.h"
-#import "MobClick.h"
 
 @interface iHDetailViewController (){
     UITableViewCell *_userCell;
@@ -47,14 +46,12 @@
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-    [MobClick endLogPageView:@"DetailViewPage"];
 }
 
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
     [self.tableView reloadData];
-    [MobClick beginLogPageView:@"DetailViewPage"];
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -217,7 +214,6 @@
     } cancelButtonTitle:@"取消" otherButtonTitles:@"确认"];
     [alert show];
     
-    [MobClick event:@"user_do_logout" label:@"user_do_logout"];
 }
 
 #pragma mark - Public Methods
@@ -237,9 +233,7 @@
     }
     
     NSString *url = [NSString stringWithFormat:@"itms-apps://ax.itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=%@", appId];
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
-    
-    [MobClick event:@"5star" label:@"5star"];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];    
 }
 
 - (void)updateUserInfo

@@ -12,8 +12,6 @@
 #import "Fund.h"
 #import "LPLoginViewController.h"
 
-#import "MobClick.h"
-
 @interface iHFundsViewController (){
     NSIndexPath *_editingIndexPath;
     UITextField *_editingTextField;
@@ -43,12 +41,10 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    [MobClick beginLogPageView:@"FundViewPage"];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-    [MobClick endLogPageView:@"FundViewPage"];
 }
 
 - (void)viewDidLoad
@@ -119,7 +115,6 @@
     }];
     [_dataModel doCallUpdatePurchasedUnitService:_modifiedFunds];
     
-    [MobClick event:@"fund_save" label:@"fund_save"];
 }
 
 #pragma mark - UITextFieldDelegate

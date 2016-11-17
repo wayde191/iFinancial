@@ -10,36 +10,31 @@
 	<string>iFinancial</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>C7A446EC-F83E-4DC3-AFAF-9F1DD9272E1B</key>
-		<string>http://112.124.41.173/svn/repos</string>
+		<key>23F21E322201331E1C2538EBCE265ED735C0B122</key>
+		<string>https://github.com/wayde191/iFinancial.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>workspace/iFinancial/iOS/trunk/iFinancial/iFinancial.xcodeproj/project.xcworkspace</string>
+	<string>iFinancial.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>C7A446EC-F83E-4DC3-AFAF-9F1DD9272E1B</key>
-		<string>../../../../../..</string>
-	</dict>
-	<key>IDESourceControlProjectRepositoryRootDictionary</key>
-	<dict>
-		<key>C7A446EC-F83E-4DC3-AFAF-9F1DD9272E1B</key>
-		<string>http://112.124.41.173/svn/repos</string>
+		<key>23F21E322201331E1C2538EBCE265ED735C0B122</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>http://112.124.41.173/svn/repos/workspace/iFinancial/iOS/iFinancial/iFinancial.xcodeproj</string>
+	<string>https://github.com/wayde191/iFinancial.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>C7A446EC-F83E-4DC3-AFAF-9F1DD9272E1B</string>
+	<string>23F21E322201331E1C2538EBCE265ED735C0B122</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.subversion</string>
+			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>C7A446EC-F83E-4DC3-AFAF-9F1DD9272E1B</string>
+			<string>23F21E322201331E1C2538EBCE265ED735C0B122</string>
 			<key>IDESourceControlWCCName</key>
-			<string>iHakulaSVN</string>
+			<string>iFinancial</string>
 		</dict>
 	</array>
 </dict>

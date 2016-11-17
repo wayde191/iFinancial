@@ -17,7 +17,6 @@
 #import "LineChartView.h"
 #import "iHDetailViewController.h"
 
-#import "MobClick.h"
 #import "iHAccountViewController.h"
 extern BOOL g_need_refresh;
 
@@ -67,7 +66,6 @@ extern BOOL g_need_refresh;
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    [MobClick beginLogPageView:@"HomeViewPage"];
     if (!IH_IS_IPHONE) {
         self.maskIndicator.origin = CGPointMake(self.view.left-10, self.view.top-10);
     }
@@ -75,7 +73,6 @@ extern BOOL g_need_refresh;
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-    [MobClick endLogPageView:@"HomeViewPage"];
 }
 
 - (void)viewDidLoad
@@ -121,14 +118,10 @@ extern BOOL g_need_refresh;
     UIViewController *vc = [sb instantiateViewControllerWithIdentifier:@"DetailViewController"];
     vc.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
     [self.navigationController pushViewController:vc animated:YES];
-    
-    [MobClick event:@"fund_setting" label:@"fund_setting"];
 }
 
 - (IBAction)onMaskCloseBtnClicked:(id)sender {
-    [self.view sendSubviewToBack:self.maskView];
-    
-    [MobClick event:@"ad" label:@"ad"];
+    [self.view sendSubviewToBack:self.maskView];    
 }
 
 - (void)updateTodayIncome

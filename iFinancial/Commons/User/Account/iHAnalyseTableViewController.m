@@ -10,7 +10,6 @@
 #import "iHAnalyseModel.h"
 #import "LPLoginViewController.h"
 #import "iHAnalyseDetailViewController.h"
-#import "MobClick.h"
 
 @interface iHAnalyseTableViewController () {
     NSIndexPath *_selectedIndexPath;
@@ -31,12 +30,10 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    [MobClick beginLogPageView:@"AnalyseTableView"];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-    [MobClick endLogPageView:@"AnalyseTableView"];
 }
 
 - (void)viewDidLoad

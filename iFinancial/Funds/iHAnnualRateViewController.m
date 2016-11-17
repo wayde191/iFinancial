@@ -10,7 +10,6 @@
 #import "iHAnnualRateModel.h"
 #import "LineChartView.h"
 #import "Fund.h"
-#import "MobClick.h"
 
 @interface iHAnnualRateViewController ()
 - (void)showServiceMessage;
@@ -39,12 +38,10 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    [MobClick beginLogPageView:@"AnnualRateViewPage"];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-    [MobClick endLogPageView:@"AnnualRateViewPage"];
 }
 
 - (void)viewDidDisappear:(BOOL)animated{

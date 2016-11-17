@@ -9,7 +9,6 @@
 #import "iHSureGoldViewController.h"
 #import "iHSureGoldModel.h"
 #import "iHValidationKit.h"
-#import "MobClick.h"
 #import "LPLoginViewController.h"
 
 @interface iHSureGoldViewController (){
@@ -33,12 +32,10 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    [MobClick beginLogPageView:@"ConfirmDepositViewPage"];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-    [MobClick endLogPageView:@"ConfirmDepositViewPage"];
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil

@@ -10,7 +10,6 @@
 #import "iHYearModel.h"
 #import "LPLoginViewController.h"
 #import "iHAnalyseTableViewController.h"
-#import "MobClick.h"
 
 @interface iHYearTableViewController (){
     NSString *_selectedYear;
@@ -31,12 +30,10 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    [MobClick beginLogPageView:@"YearTableView"];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-    [MobClick endLogPageView:@"YearTableView"];
 }
 
 - (void)viewDidLoad

@@ -10,8 +10,6 @@
 #import "JProudDetailViewController.h"
 #import "CustomerBarButtonItem.h"
 
-#import "MobClick.h"
-
 @interface JProudViewController ()
 
 @end
@@ -61,12 +59,10 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    [MobClick beginLogPageView:@"ProudViewPage"];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-    [MobClick endLogPageView:@"ProudViewPage"];
 }
 
 - (void)didReceiveMemoryWarning
