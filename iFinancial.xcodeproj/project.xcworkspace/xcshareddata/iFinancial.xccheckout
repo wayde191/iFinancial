@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>93114AF4-8DE8-4613-9E95-17B4EB8AA99E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iFinancial</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C7A446EC-F83E-4DC3-AFAF-9F1DD9272E1B</key>
+		<string>http://112.124.41.173/svn/repos</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>workspace/iFinancial/iOS/trunk/iFinancial/iFinancial.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C7A446EC-F83E-4DC3-AFAF-9F1DD9272E1B</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>C7A446EC-F83E-4DC3-AFAF-9F1DD9272E1B</key>
+		<string>http://112.124.41.173/svn/repos</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://112.124.41.173/svn/repos/workspace/iFinancial/iOS/iFinancial/iFinancial.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C7A446EC-F83E-4DC3-AFAF-9F1DD9272E1B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C7A446EC-F83E-4DC3-AFAF-9F1DD9272E1B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iHakulaSVN</string>
+		</dict>
+	</array>
+</dict>
+</plist>

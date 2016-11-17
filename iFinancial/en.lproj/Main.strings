@@ -1,0 +1,48 @@
+
+/* Class = "IBUILabel"; text = "请点击设置基金金额"; ObjectID = "1cI-eA-dTx"; */
+"1cI-eA-dTx.text" = "请点击设置基金金额";
+
+/* Class = "IBUILabel"; text = "查看总收益，一步到位"; ObjectID = "5er-Sc-Cdv"; */
+"5er-Sc-Cdv.text" = "查看总收益，一步到位";
+
+/* Class = "IBUIBarButtonItem"; title = "设置"; ObjectID = "7Vh-CK-qRB"; */
+"7Vh-CK-qRB.title" = "设置";
+
+/* Class = "IBUINavigationItem"; title = "设置"; ObjectID = "9Xp-G3-kMp"; */
+"9Xp-G3-kMp.title" = "设置";
+
+/* Class = "IBUIViewController"; title = "Detail"; ObjectID = "Ah7-4n-0Wa"; */
+"Ah7-4n-0Wa.title" = "Detail";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "Azb-Jl-ToL"; */
+"Azb-Jl-ToL.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "DyD-sH-D2o"; */
+"DyD-sH-D2o.text" = "Detail";
+
+/* Class = "IBUILabel"; text = "昨日总收益(元)"; ObjectID = "E2U-1a-YVD"; */
+"E2U-1a-YVD.text" = "昨日总收益(元)";
+
+/* Class = "IBUILabel"; text = "登录后将方便我们为您提供更优质服务"; ObjectID = "LTw-jz-MTP"; */
+"LTw-jz-MTP.text" = "登录后将方便我们为您提供更优质服务";
+
+/* Class = "IBUIButton"; normalTitle = "登录"; ObjectID = "MlT-sT-vt6"; */
+"MlT-sT-vt6.normalTitle" = "登录";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "O3D-2m-KK7"; */
+"O3D-2m-KK7.text" = "Title";
+
+/* Class = "IBUINavigationItem"; title = "收益宝"; ObjectID = "Opn-SL-a0R"; */
+"Opn-SL-a0R.title" = "收益宝";
+
+/* Class = "IBUILabel"; text = "100.23"; ObjectID = "TrU-fK-wte"; */
+"TrU-fK-wte.text" = "100.23";
+
+/* Class = "IBUILabel"; text = "Guest"; ObjectID = "WhO-qB-Z4i"; */
+"WhO-qB-Z4i.text" = "Guest";
+
+/* Class = "IBUILabel"; text = "每万份收益走势图(元)"; ObjectID = "j7l-Ij-6kl"; */
+"j7l-Ij-6kl.text" = "每万份收益走势图(元)";
+
+/* Class = "IBUILabel"; text = "下一笔收益02月26日到账"; ObjectID = "uGV-s6-s0y"; */
+"uGV-s6-s0y.text" = "下一笔收益02月26日到账";

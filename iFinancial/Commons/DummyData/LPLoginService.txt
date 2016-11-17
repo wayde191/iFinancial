@@ -1,0 +1,1 @@
+{"status":1, "data":{"sessionId":"SKDKDLIOWLKDO","user":{"name":"wayde", "email":"hakula@ihakula.com", "id":"1"}}}

@@ -1,0 +1,1 @@
+{"status":1, "funds":[{"id":"1","name":"理财宝","code":"000343","manager":"wayde","owner":"华夏基金","type":"货币基金","color":"30:30:30"},{"id":"2","name":"微信","code":"000343","manager":"wayde","owner":"华夏基金","type":"货币基金","color":"200:30:30"},{"id":"3","name":"华夏财富宝货币","code":"000343","manager":"wayde","owner":"华夏基金","type":"货币基金","color":"30:200:30"}]}

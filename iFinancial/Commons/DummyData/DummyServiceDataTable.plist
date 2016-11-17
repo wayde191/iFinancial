@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GetAnalyseService</key>
+	<string>GetAnalyseService.txt</string>
+	<key>GetAnalyseYearsService</key>
+	<string>GetAnalyseYearsService.txt</string>
+	<key>AddRecordService</key>
+	<string>AddRecordService.txt</string>
+	<key>GetFieldsService</key>
+	<string>GetFieldsService.txt</string>
+	<key>GetAnnualRateService</key>
+	<string>GetAnnualRateService.txt</string>
+	<key>GetConfirmDepositService</key>
+	<string>GetConfirmDepositService.txt</string>
+	<key>GetAllIncomeService</key>
+	<string>GetAllIncomeService.txt</string>
+	<key>FeedbackService</key>
+	<string>FeedbackService.txt</string>
+	<key>LPRegisterService</key>
+	<string>LPRegisterService.txt</string>
+	<key>LPLogoutService</key>
+	<string>LPLogoutService.txt</string>
+	<key>LPLoginService</key>
+	<string>LPLoginService.txt</string>
+	<key>UpdatePurchasedUnitService</key>
+	<string>UpdatePurchasedUnitService.txt</string>
+	<key>GetAllFundsService</key>
+	<string>GetAllFundsService.txt</string>
+	<key>GetFundsService</key>
+	<string>GetFundsService.txt</string>
+	<key>UpdateSessionService</key>
+	<string>UpdateSessionService.txt</string>
+</dict>
+</plist>
