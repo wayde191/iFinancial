@@ -14,6 +14,7 @@
 		07B9E38D1902A3DB00B1CB9B /* iAccountBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B9E38C1902A3DB00B1CB9B /* iAccountBaseModel.m */; };
 		07B9E3901902A85A00B1CB9B /* iAccountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B9E38F1902A85A00B1CB9B /* iAccountModel.m */; };
 		07B9E3931902AADB00B1CB9B /* iHAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B9E3921902AADB00B1CB9B /* iHAccountViewController.m */; };
+		822BB67E1DE27699007B9840 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 822BB67D1DE27699007B9840 /* Default-568h@2x.png */; };
 		B725C74F18B63B5700A31FD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B725C74E18B63B5700A31FD3 /* Foundation.framework */; };
 		B725C75118B63B5700A31FD3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B725C75018B63B5700A31FD3 /* CoreGraphics.framework */; };
 		B725C75318B63B5700A31FD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B725C75218B63B5700A31FD3 /* UIKit.framework */; };
@@ -23,11 +24,6 @@
 		B725C76518B63B5700A31FD3 /* iHMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B725C76418B63B5700A31FD3 /* iHMasterViewController.m */; };
 		B725C76818B63B5700A31FD3 /* iHDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B725C76718B63B5700A31FD3 /* iHDetailViewController.m */; };
 		B725C76A18B63B5700A31FD3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B725C76918B63B5700A31FD3 /* Images.xcassets */; };
-		B725C77118B63B5700A31FD3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B725C77018B63B5700A31FD3 /* XCTest.framework */; };
-		B725C77218B63B5700A31FD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B725C74E18B63B5700A31FD3 /* Foundation.framework */; };
-		B725C77318B63B5700A31FD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B725C75218B63B5700A31FD3 /* UIKit.framework */; };
-		B725C77B18B63B5700A31FD3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B725C77918B63B5700A31FD3 /* InfoPlist.strings */; };
-		B725C77D18B63B5700A31FD3 /* iFinancialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B725C77C18B63B5700A31FD3 /* iFinancialTests.m */; };
 		B729957818C9D6F30019F33B /* Fund.m in Sources */ = {isa = PBXBuildFile; fileRef = B729957718C9D6F30019F33B /* Fund.m */; };
 		B734914E18D515220058F503 /* iHRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B734914D18D515220058F503 /* iHRegisterViewController.m */; };
 		B734915018D51A340058F503 /* LPRegisterService.txt in Resources */ = {isa = PBXBuildFile; fileRef = B734914F18D51A330058F503 /* LPRegisterService.txt */; };
@@ -173,7 +169,6 @@
 		B7DF0E7918BCB9A200FC7B2B /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DF0E6E18BCB9A200FC7B2B /* UIImage+Additions.m */; };
 		B7DF0E7A18BCB9A200FC7B2B /* UIKit+DrawingHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = B7DF0E7018BCB9A200FC7B2B /* UIKit+DrawingHelpers.m */; };
 		B7DF0E8518BCB9F300FC7B2B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B7DF0E7B18BCB9F300FC7B2B /* libz.dylib */; };
-		B7DF0E8618BCB9F300FC7B2B /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7DF0E7C18BCB9F300FC7B2B /* AdSupport.framework */; };
 		B7DF0E8718BCB9F300FC7B2B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7DF0E7D18BCB9F300FC7B2B /* StoreKit.framework */; };
 		B7DF0E8818BCB9F300FC7B2B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7DF0E7E18BCB9F300FC7B2B /* MessageUI.framework */; };
 		B7DF0E8918BCB9F300FC7B2B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7DF0E7F18BCB9F300FC7B2B /* AudioToolbox.framework */; };
@@ -186,16 +181,6 @@
 		B7EB423E18BF0F2000CC910F /* iHMasterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EB423D18BF0F2000CC910F /* iHMasterModel.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B725C77418B63B5700A31FD3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B725C74318B63B5700A31FD3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B725C74A18B63B5700A31FD3;
-			remoteInfo = iFinancial;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		07005A4819166C7600176E7E /* AboutUsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutUsView.xib; sourceTree = "<group>"; };
 		07005A4A1917C7BA00176E7E /* JFeedbackView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JFeedbackView.xib; sourceTree = "<group>"; };
@@ -207,6 +192,7 @@
 		07B9E38F1902A85A00B1CB9B /* iAccountModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iAccountModel.m; sourceTree = "<group>"; };
 		07B9E3911902AADB00B1CB9B /* iHAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iHAccountViewController.h; sourceTree = "<group>"; };
 		07B9E3921902AADB00B1CB9B /* iHAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iHAccountViewController.m; sourceTree = "<group>"; };
+		822BB67D1DE27699007B9840 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B725C74B18B63B5700A31FD3 /* iFinancial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFinancial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B725C74E18B63B5700A31FD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B725C75018B63B5700A31FD3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -222,11 +208,7 @@
 		B725C76618B63B5700A31FD3 /* iHDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iHDetailViewController.h; sourceTree = "<group>"; };
 		B725C76718B63B5700A31FD3 /* iHDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iHDetailViewController.m; sourceTree = "<group>"; };
 		B725C76918B63B5700A31FD3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B725C76F18B63B5700A31FD3 /* iFinancialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iFinancialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B725C77018B63B5700A31FD3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		B725C77818B63B5700A31FD3 /* iFinancialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iFinancialTests-Info.plist"; sourceTree = "<group>"; };
-		B725C77A18B63B5700A31FD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B725C77C18B63B5700A31FD3 /* iFinancialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iFinancialTests.m; sourceTree = "<group>"; };
 		B729957618C9D6F30019F33B /* Fund.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fund.h; sourceTree = "<group>"; };
 		B729957718C9D6F30019F33B /* Fund.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fund.m; sourceTree = "<group>"; };
 		B734914C18D515220058F503 /* iHRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iHRegisterViewController.h; sourceTree = "<group>"; };
@@ -509,7 +491,6 @@
 			files = (
 				B7DF0E8718BCB9F300FC7B2B /* StoreKit.framework in Frameworks */,
 				B7DF0E8A18BCB9F300FC7B2B /* CoreData.framework in Frameworks */,
-				B7DF0E8618BCB9F300FC7B2B /* AdSupport.framework in Frameworks */,
 				B725C75118B63B5700A31FD3 /* CoreGraphics.framework in Frameworks */,
 				B7DF0E8E18BCB9F300FC7B2B /* CFNetwork.framework in Frameworks */,
 				B7DF0E8818BCB9F300FC7B2B /* MessageUI.framework in Frameworks */,
@@ -520,16 +501,6 @@
 				B725C75318B63B5700A31FD3 /* UIKit.framework in Frameworks */,
 				B7DF0E8C18BCB9F300FC7B2B /* MobileCoreServices.framework in Frameworks */,
 				B725C74F18B63B5700A31FD3 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B725C76C18B63B5700A31FD3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B725C77118B63B5700A31FD3 /* XCTest.framework in Frameworks */,
-				B725C77318B63B5700A31FD3 /* UIKit.framework in Frameworks */,
-				B725C77218B63B5700A31FD3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,7 +533,6 @@
 			children = (
 				B7DF0D5E18BCB6A300FC7B2B /* iHakula */,
 				B725C75418B63B5700A31FD3 /* iFinancial */,
-				B725C77618B63B5700A31FD3 /* iFinancialTests */,
 				B725C74D18B63B5700A31FD3 /* Frameworks */,
 				B725C74C18B63B5700A31FD3 /* Products */,
 			);
@@ -572,7 +542,6 @@
 			isa = PBXGroup;
 			children = (
 				B725C74B18B63B5700A31FD3 /* iFinancial.app */,
-				B725C76F18B63B5700A31FD3 /* iFinancialTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -622,6 +591,7 @@
 				B7EB423D18BF0F2000CC910F /* iHMasterModel.m */,
 				B7659C3D18D1DDF200757DAD /* iHFundsModel.h */,
 				B7659C3E18D1DDF200757DAD /* iHFundsModel.m */,
+				822BB67D1DE27699007B9840 /* Default-568h@2x.png */,
 			);
 			path = iFinancial;
 			sourceTree = "<group>";
@@ -633,24 +603,6 @@
 				B725C75718B63B5700A31FD3 /* InfoPlist.strings */,
 				B725C75A18B63B5700A31FD3 /* main.m */,
 				B725C75C18B63B5700A31FD3 /* iFinancial-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B725C77618B63B5700A31FD3 /* iFinancialTests */ = {
-			isa = PBXGroup;
-			children = (
-				B725C77C18B63B5700A31FD3 /* iFinancialTests.m */,
-				B725C77718B63B5700A31FD3 /* Supporting Files */,
-			);
-			path = iFinancialTests;
-			sourceTree = "<group>";
-		};
-		B725C77718B63B5700A31FD3 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B725C77818B63B5700A31FD3 /* iFinancialTests-Info.plist */,
-				B725C77918B63B5700A31FD3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -1297,24 +1249,6 @@
 			productReference = B725C74B18B63B5700A31FD3 /* iFinancial.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B725C76E18B63B5700A31FD3 /* iFinancialTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B725C78318B63B5700A31FD3 /* Build configuration list for PBXNativeTarget "iFinancialTests" */;
-			buildPhases = (
-				B725C76B18B63B5700A31FD3 /* Sources */,
-				B725C76C18B63B5700A31FD3 /* Frameworks */,
-				B725C76D18B63B5700A31FD3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B725C77518B63B5700A31FD3 /* PBXTargetDependency */,
-			);
-			name = iFinancialTests;
-			productName = iFinancialTests;
-			productReference = B725C76F18B63B5700A31FD3 /* iFinancialTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1327,9 +1261,7 @@
 				TargetAttributes = {
 					B725C74A18B63B5700A31FD3 = {
 						DevelopmentTeam = W38285RYNS;
-					};
-					B725C76E18B63B5700A31FD3 = {
-						TestTargetID = B725C74A18B63B5700A31FD3;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -1347,7 +1279,6 @@
 			projectRoot = "";
 			targets = (
 				B725C74A18B63B5700A31FD3 /* iFinancial */,
-				B725C76E18B63B5700A31FD3 /* iFinancialTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1403,20 +1334,13 @@
 				B7DF0E3618BCB6A300FC7B2B /* iHStatusBarActivitiesView.xib in Resources */,
 				B7DF0E2E18BCB6A300FC7B2B /* dot.png in Resources */,
 				B7474E3118D5B27B00BCFF3F /* inputBg.png in Resources */,
+				822BB67E1DE27699007B9840 /* Default-568h@2x.png in Resources */,
 				B7474E5F18D5CFF300BCFF3F /* BarButtonItem_Back_Normal@2x.png in Resources */,
 				B7474E6418D5DB8200BCFF3F /* andriod.jpg in Resources */,
 				B7DF0E3318BCB6A300FC7B2B /* grayStatusBar.png in Resources */,
 				B7DF0E4518BCB6A300FC7B2B /* conf.plist in Resources */,
 				B73A781D18C8C8C4008C9731 /* UpdateSessionService.txt in Resources */,
 				B7603CD118D4625D007AA6F6 /* checkbox.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B725C76D18B63B5700A31FD3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B725C77B18B63B5700A31FD3 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1537,23 +1461,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B725C76B18B63B5700A31FD3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B725C77D18B63B5700A31FD3 /* iFinancialTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B725C77518B63B5700A31FD3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B725C74A18B63B5700A31FD3 /* iFinancial */;
-			targetProxy = B725C77418B63B5700A31FD3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B725C75718B63B5700A31FD3 /* InfoPlist.strings */ = {
@@ -1570,14 +1478,6 @@
 				B762A92F18D1B008003A39A6 /* en */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B725C77918B63B5700A31FD3 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B725C77A18B63B5700A31FD3 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1663,22 +1563,29 @@
 		B725C78118B63B5700A31FD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer: sun wei (8722L3F3ML)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = W38285RYNS;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iFinancial/iFinancial-Prefix.pch";
 				INFOPLIST_FILE = "iFinancial/iFinancial-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/iHakula/Vendors/UM2.2.0",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CODE_SIGN_FLAGS = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "94485EFA-95F5-45A9-9A2E-2CCDE5D4182A";
+				PROVISIONING_PROFILE = "415b97ac-0180-4dfb-a2b3-db0623f44570";
+				PROVISIONING_PROFILE_SPECIFIER = iFinancialDev20150627;
+				SDKROOT = iphoneos10.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 arm64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1686,63 +1593,29 @@
 		B725C78218B63B5700A31FD3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: sun wei (W38285RYNS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iFinancial/iFinancial-Prefix.pch";
 				INFOPLIST_FILE = "iFinancial/iFinancial-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/iHakula/Vendors/UM2.2.0",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CODE_SIGN_FLAGS = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "935FF190-5D13-4BB0-B75E-7EB0B0526FB7";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos10.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 arm64";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		B725C78418B63B5700A31FD3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iFinancial.app/iFinancial";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iFinancial/iFinancial-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "iFinancialTests/iFinancialTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		B725C78518B63B5700A31FD3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iFinancial.app/iFinancial";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iFinancial/iFinancial-Prefix.pch";
-				INFOPLIST_FILE = "iFinancialTests/iFinancialTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -1763,15 +1636,6 @@
 			buildConfigurations = (
 				B725C78118B63B5700A31FD3 /* Debug */,
 				B725C78218B63B5700A31FD3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B725C78318B63B5700A31FD3 /* Build configuration list for PBXNativeTarget "iFinancialTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B725C78418B63B5700A31FD3 /* Debug */,
-				B725C78518B63B5700A31FD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

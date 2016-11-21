@@ -10,7 +10,7 @@
 #define iHakula_iHDebug_h
 
 #define iHDEBUG             1
-#define iHMAXLOGLEVEL       1
+#define iHMAXLOGLEVEL       2
 #define iHLOGLEVEL_INFO     2
 #define iHLOGLEVEL_WARNING  3
 #define iHLOGLEVEL_ERROR    4

@@ -14,7 +14,7 @@
 
 /////////////////////////// Global Keys /////////////////////////////////////
 
-#define IH_FREE                     1
+#define IH_FREE                     0
 #define UMENG_APPKEY                @"533531ec56240b439d0d4aa2"
 
 #define IH_DEVICE_TOKEN             @"iHDeviceToken"
