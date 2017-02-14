@@ -12,7 +12,7 @@
 #define SECURITY_CODE       @"ihakula.ifinancial.scode"
 
 #define HOST_NAME           @"www.ihakula.com"
-#define SERVICE_ROOT_URL    @"http://www.ihakula.com:9000/api/index.php/ifinancial/"
+#define SERVICE_ROOT_URL    @"http://source.sunzhongmou.com/api/index.php/ifinancial/"
 
 //#define HOST_NAME           @"127.0.0.1"
 //#define SERVICE_ROOT_URL    @"http://127.0.0.1/api/index.php/ifinancial/"

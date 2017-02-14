@@ -232,7 +232,7 @@ static User *singletonInstance = nil;
 #pragma mark - Private Methods
 - (void)initCachedData
 {
-    _cachedData = [USER_DEFAULT objectForKey:IF_CACHED_DATA];
+    _cachedData = [NSMutableDictionary dictionaryWithDictionary: [USER_DEFAULT objectForKey:IF_CACHED_DATA]];
     
     _refreshedDayComponents = nil;
     NSString *day = [_cachedData objectForKey:IF_REFRESHED_DAY];
